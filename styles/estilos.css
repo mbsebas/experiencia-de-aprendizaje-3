@@ -3,9 +3,11 @@ body{
     margin: 0;
     
 }
+
 h1,h2{
     font-family: Verdana, sans-serif;
 }
+
 header{
     background-color: rgb(69, 150, 15);
     display: flex;
@@ -16,43 +18,10 @@ header{
     max-height: 100px;
     padding: 10px;
 }
+
 header img{
     object-fit: contain;
 }
-
-section{
-    background-color: rgb(199, 226, 181);
-    min-height: 75vh;
-    margin: 20px;
-    align-content: center;
-   
-}
-section h1{
-    display: flex;
-    justify-content: center;
-    font-size: 400%;
-    text-align: center;
-    font-style: sans-serif;
-} 
-section h2{
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-    text-align: center;
-    font-style: sans-serif;
-}
-form{
-    display: flex;
-    justify-content: center;
-
-}
-input{
- 
- font-size: 300%;
- width: 50%;
- text-align: center;
-}
-
 
 footer {
     background-color: #000000;
@@ -63,3 +32,90 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+section{
+    background-color: rgb(199, 226, 181);
+    min-height: 75vh;
+    margin: 20px;
+    
+}
+.c1{
+    align-content: center;
+}
+
+.c1 h1{
+    display: flex;
+    font-size: 400%;
+    text-align: center;
+    font-style: sans-serif;
+} 
+
+.c1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    text-align: center;
+    font-style: sans-serif;
+}
+
+.c1 form{
+    display: flex;
+    justify-content: center;
+}
+
+.c1 input{
+ 
+ font-size: 300%;
+ width: 50%;
+ text-align: center;
+}
+
+.datos{
+    display: flex; 
+    justify-content: space-between;
+    align-content: top;
+    color: rgb(66, 117, 33);
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.acciones{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px ;
+    flex: 1;
+    background-color: aqua;
+}
+.acciones button{
+    margin: 5px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.transaciones{
+    flex: 1;
+    
+    padding: 20px;
+    
+    background-color: aliceblue;
+}
+.transaciones h1{
+    text-align: end;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+      flex-direction: column; /* Apila los divs verticalmente */
+    }
+  }
