@@ -37,7 +37,6 @@ section{
     justify-content: center;
     font-size: 200%;
     text-align: center;
-    font-style: sans-serif;
 }
 .c1 form{
     display: flex;
@@ -47,10 +46,6 @@ section{
  font-size: 300%;
  width: 50%;
  text-align: center;
-}
-
-.historial, .acciones{
-    flex: 1;
 }
 .datos{
     display: flex; 
@@ -64,12 +59,37 @@ section{
     padding-right: 20px;
 }
 
+.historial, .acciones{
+    flex: 1;
+}
 .contenido{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.acciones{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px ;
+    flex: 1;
+}
+.acciones button{
+    margin: 5px;
+}
+.transaciones{
+    text-align: end;
+    display: flex; justify-content: space-between;
+}
+.transaciones h1{
+    font-size: 20px;
+    padding-right: 40px; 
+}
+.transaciones hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 footer {
     background-color: #000000;
     color: white;
@@ -78,4 +98,30 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+.resta{
+    color: #dd3434;
+}
+.suma{
+    color: rgb(115, 214, 16);
+}
+.ver_mas {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a  h1{
+    color: black; 
+    background-color: aliceblue; 
+    margin-left: 30%; 
+    margin-right: 30%; 
+    padding: 5px; 
+    border-radius: 5px; 
+    border: solid;
 }
