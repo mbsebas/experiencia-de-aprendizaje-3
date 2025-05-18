@@ -10,28 +10,28 @@
 <body>
     
     <header>
-        <img src="imagenes/pokemonbank.png" alt="">
+        <img src="imagenes/pokemonbank.png" alt="pokemon bank">
     </header>
-    <section>
-      <div class="c1">
-          <h1>Bienvenido Usuario</h1>
-          <h2>Por Favor Digite Su Pin</h2>
-          
-          <form action="">
-              <input type="text" id="miInput">
-          </form>
 
-          
-          <a href="transacion.html"> <h2 style="background-color: aliceblue; margin-left: 30%; margin-right: 30%; padding: 5px; border-radius: 5px; border: solid;">Ingresar</h2></a> 
-      </div>
-        
-        
-        
+    <section>
+        <div class="c1">
+            <h1>Bienvenido Usuario</h1>
+            <h2>Por Favor Digite Su Pin</h2>
+            
+            <form id="formularioPin">
+                <input type="text" id="pinIngresado" name="pin">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+            <h2 id="mensajeError" style="">PIN INCORRECTO.</h2>
+        </div>
+
     </section>
    
     <footer>
         <p>&copy; 2025 Mi Sitio Web. Desarollado por Sebastian Orlando Martinez Bustamante </p>
     </footer>
   
+    <script src="javascript/script.js"></script>
 </body>
 </html>

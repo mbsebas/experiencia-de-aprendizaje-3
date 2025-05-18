@@ -9,44 +9,51 @@ header{
     background-color: rgb(69, 150, 15);
     display: flex;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-inline: 10px; /*margin en eje x*/
     margin-top: 10px;
     max-height: 100px;
     padding: 10px;
 }
 header img{
-    object-fit: contain;
+    object-fit: contain; /*mantiene la imagen del tamaño del contenedor*/
 }
+
 section{
     background-color: rgb(199, 226, 181);
     min-height: 75vh;
     margin: 20px;
+    
 }
+
+/*contenido de la pagina de login*/
 .c1{
     align-content: center;
     text-align: center;
 }
 .c1 h1{
-    justify-content: center;
     font-size: 400%;
-    display: flex;
 }
+
 .c1 h2{
-    display: flex;
-    justify-content: center;
     font-size: 200%;
+}
+
+.c1 input{
+    font-size: 300%;
+    width: 300px;
     text-align: center;
 }
-.c1 form{
-    display: flex;
-    justify-content: center;
+
+.c1 button{
+    margin: 10px;
+    width: 100px;
 }
-.c1 input{
- font-size: 300%;
- width: 50%;
- text-align: center;
+
+#mensajeError{
+    display: none; 
+    color: red;
 }
+
 .datos{
     display: flex; 
     justify-content: space-between;
@@ -55,8 +62,7 @@ section{
     font-size: 10px;
     padding-top: 5px;
     padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-inline: 20px; /*margin en eje x*/
 }
 
 .historial, .acciones{
