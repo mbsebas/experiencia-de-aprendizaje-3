@@ -54,6 +54,7 @@ section{
     color: red;
 }
 
+/* nombre del usuario y numero de cuenta*/
 .datos{
     display: flex; 
     justify-content: space-between;
@@ -63,6 +64,38 @@ section{
     padding-top: 5px;
     padding-bottom: 0px;
     margin-inline: 20px; /*margin en eje x*/
+}
+
+/*boton cerrar sesion*/
+#cerrarsesion{
+    color: black; 
+    background-color: rgb(255, 255, 255); 
+    margin-right: 30px; 
+    padding: 5px; 
+    border-radius: 5px; 
+    border: solid;
+    font-size: 20px;
+}
+.cerrarsesion{
+    display: flex; 
+    justify-content: end; 
+    align-items: last baseline;
+}
+
+/*boton regresar a inicio*/
+#regresar{
+    color: black; 
+    background-color: rgb(255, 255, 255); 
+    margin-right: 30px; 
+    padding: 5px; 
+    border-radius: 5px; 
+    border: solid;
+    font-size: 20px;
+}
+.regresar{
+    display: flex; 
+    justify-content: end; 
+    align-items: last baseline;
 }
 
 .historial, .acciones{
@@ -78,11 +111,24 @@ section{
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    padding:20px ;
+    padding:20px ; 
     flex: 1;
 }
+
 .acciones button{
-    margin: 5px;
+    margin: 10px;
+    font-size: 20px;
+    padding-right: 40px; 
+    color: black; 
+    background-color: aliceblue; 
+    margin-left: 30%; 
+    margin-right: 30%; 
+    padding: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px; 
+    border: solid;
+    font-weight: bold;
 }
 .transaciones{
     text-align: end;
@@ -131,3 +177,4 @@ a  h1{
     border-radius: 5px; 
     border: solid;
 }
+
