@@ -178,3 +178,54 @@ a  h1{
     border: solid;
 }
 
+/*mensaje error de ingreso*/
+
+#mensajeErrorIngresos{
+    display: none; 
+    color: red;
+}
+
+/*arreglar despues*/
+.historial-transacciones {
+    background-color: #ffffff; 
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.historial-transacciones h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.transaccion {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.transaccion:last-child {
+    border-bottom: none;
+}
+
+.transaccion:last-child {
+    border-bottom: none;
+}
+
+.ingreso {
+    color: green;
+    font-weight: bold;
+}
+
+.egreso {
+    color: red;
+    font-weight: bold;
+}
+
+.monto-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
